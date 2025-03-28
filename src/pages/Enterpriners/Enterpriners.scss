@@ -1,0 +1,59 @@
+.Enterpriners {
+    background: url(../../assets/image/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0;
+        &__inner {
+            .swiper {
+                height: 100vh;
+                padding: 0 3.5rem;
+                z-index: 1;
+
+                .swiper-wrapper {
+                    width: 100%;
+                    height: 90vh;
+                    margin-top: 3rem;
+
+                    .swiper-slide {
+                        overflow: hidden;
+                        width: 100%;
+                        box-shadow: 0 0 10px #c6c6c6;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        border-radius: 0.7rem;
+                        z-index: 99;
+                        cursor: pointer;
+                        background: rgba(136, 131, 131, 0.2);
+                        backdrop-filter: blur(0.2rem);
+                        border-radius: 1rem;
+
+                        li {
+                            padding: 0.5rem;
+
+                            h6 {
+                                font-size: 1rem;
+                                padding: 0;
+                                margin: 0.5rem;
+                                color: #e4e4e4a5;
+
+                                b {
+                                    color: #fffdfd;
+
+                                    a {
+                                        color: #ffffff;
+                                        z-index: 9999;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
